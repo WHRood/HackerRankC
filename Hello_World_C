@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(void) {
+  //start program
+  char s[100]; //character array for storage
+  scanf("%[^\n]%*c",&s);//scans input from console
+  printf("Hello there World!\n");
+  printf("%s",s);
+  return (0); //end the program
+
+}
