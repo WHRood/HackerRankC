@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{   
+    //define the variables
+	int num_1;  //first int value to be stored from input
+    int num_2;  //second int value
+    float num_float; //float 1
+    float num_float2; //float 2
+    //scan for input
+    scanf("%d%d",&num_1,&num_2);
+    scanf("%f%f",&num_float,&num_float2);
+    // perform the actions on the data
+    printf("%d %d\n",num_1 + num_2,num_1 - num_2);
+    printf("%.1f %.1f",num_float + num_float2,num_float - num_float2);
+    return 0;
+}
